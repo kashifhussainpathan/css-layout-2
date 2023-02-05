@@ -1,10 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
-
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
+    background-color: var(--color-background);
+    font-family: 'Poppins', sans-serif;
 }
-body{
-    
+
+:root {
+    --color-background: #f9f5ed;
+    --color-secondary: #3b855b;
+}
+
+.container {
+    width: 80%;
+    max-width: 80%;
+    margin: auto;
+}
+
+body {
+    width: 100%;
+}
+
+.nav {
+    padding: 20px auto;
+    height: 15vh;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding-right: 3.5rem;
+    font-weight: 600;
+}
+
+button {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0px 1px 5px 1px #696969;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.leftmain {
+    width: 40%;
+}
+
+.leftmain h1 {
+    font-size: 2rem;
+}
+
+.leftmain p {
+    margin: 5% 0;
+}
+
+.rightmain {
+    padding-top: 2rem;
+}
+
+.rightmain-div1 img:first-child {
+    margin-right: 20px;
+}
+
+.rightmain div {
+    margin-bottom: 20px;
+}
+
+.rightmain div img {
+    width: 30%;
+}
+
+.rightmain .rightmain-bottom-img {
+    width: 64%;
+}
+
+.rightmain-div1{
+   display: flex;
+   justify-content: center;
+}
+.rightmain-div2{
+   display: flex;
+   justify-content: center;
 }
